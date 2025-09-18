@@ -86,6 +86,9 @@ MissingNumberFinder.sln
 ```bash
 dotnet build
 ```
+```bash
+Build succeeded in 0.6s
+```
 
 **Run the console app:**
 ```bash
@@ -111,8 +114,12 @@ dotnet test
 
 example output
 ```bash
-MissingNumberFinder.Tests test succeeded (0.3s)
+Restore complete (0.2s)
+  MissingNumberFinder.ConsoleApp succeeded (0.1s) → src/MissingNumberFinder.ConsoleApp/bin/Debug/net9.0/MissingNumberFinder.ConsoleApp.dll
+  MissingNumberFinder.Tests succeeded (0.1s) → tests/MissingNumberFinder.Tests/bin/Debug/net9.0/MissingNumberFinder.Tests.dll
+Test Parallelization enabled for /Users/harveyzhu/projects/MissingNumberFinder/tests/MissingNumberFinder.Tests/bin/Debug/net9.0/MissingNumberFinder.Tests.dll (Workers: 10, Scope: MethodLevel)
+  MissingNumberFinder.Tests test succeeded (0.3s)
 
 Test summary: total: 4, failed: 0, succeeded: 4, skipped: 0, duration: 0.3s
-Build succeeded with 2 warning(s) in 0.7s
+Build succeeded in 0.8s
 ```
