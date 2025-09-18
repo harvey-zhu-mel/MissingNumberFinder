@@ -50,10 +50,18 @@ expectedSum = n * (n + 1) / 2;
 ```bash
 MissingNumberFinder.sln
 ├─ src/
-│ └─ MissingNumberFinder.ConsoleApp/
-│ ├─ Program.cs
-│ ├─ IMissingNumberFinder.cs
-│ ├─ ArithmeticSeriesMissingNumberFinder.cs
+│   └─ MissingNumberFinder.ConsoleApp/
+│       ├─ ArithmeticSeriesMissingNumberFinder.cs
+│       ├─ IMissingNumberFinder.cs
+│       ├─ Program.cs
+│       └─ MissingNumberFinder.ConsoleApp.csproj
+├─ tests/
+│   └─ MissingNumberFinder.Tests/
+│       ├─ MSTestSettings.cs
+│       ├─ TestMissingNumberFinder.cs
+│       └─ MissingNumberFinder.Tests.csproj
+├─ .gitignore
+└─ README.md
 ```
 
 
